@@ -1,7 +1,12 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => (
+  <div>
+    <Component {...pageProps} />
+  </div>
+);
+
+
 
 export default MyApp
+  
