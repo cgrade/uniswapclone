@@ -1,0 +1,80 @@
+.HeroSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.HeroSection_box{
+    margin-top: 5rem;
+    background-color: #d3b49658;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 30rem;
+}
+
+.HeroSection_box_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a8256c;
+    font-size: 1.5rem;
+}
+
+.HeroSection_box_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #a8256c;
+    border-radius: .5rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.HeroSection_box_input input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #a8256c;
+    font-size: 1.2rem;
+}
+
+.HeroSection_box_input button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    line-height: 0;
+    background-color: #a8256c;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    color: #e8d9c7;
+}
+
+.HeroSection_box_btn{
+    background-color: #a8256c;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: #e8d9c7;
+}
+
+@media only screen and (max-width: 35em){
+    .HeroSection{
+        width: 95%;
+    }
+
+    .HeroSection_box{
+        width: 95%;
+    }
+
+    .HeroSection_box_input input{
+        width: 50%;
+    }
+}
