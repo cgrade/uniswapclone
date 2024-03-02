@@ -8,6 +8,15 @@
     "start": "next start",
     "lint": "next lint"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgrade/uniswapclone.git"
+  },
+  "keywords": [
+    "blockexplorer",
+    "blockchain",
+    "bitcoin"
+  ],
   "dependencies": {
     "next": "^13.0.3",
     "react": "18.2.0",
